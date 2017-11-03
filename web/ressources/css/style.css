@@ -1,0 +1,199 @@
+input.col.s2:focus {
+    border-color: teal;
+}
+
+input.col.s2 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    width: 40px !important;
+    margin: 17px;
+}
+
+.row .col.s12 {
+    margin-bottom: 20px;
+}
+
+.number {
+    border-bottom: 2px solid black !important;
+}
+
+strong {
+    color: black;
+}
+
+td, th {
+    font-size: small;
+}
+
+table {
+    display: block;
+    overflow-y: scroll;
+    max-height: 280px;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.chat-box {
+    width: 300px;
+
+}
+
+.header {
+    padding: 10px;
+
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #00bfa5;
+}
+
+.messages {
+    padding: 10px;
+    height: 78vh;;
+    background-color: green;
+    background-color: rgb(237, 239, 244);
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    overflow-y: scroll;
+}
+
+.messages ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.messages ul li {
+    height: auto;
+    margin-bottom: 10px;
+    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.messages ul li span {
+    display: inline-block;
+    max-width: 200px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.messages ul li span.left {
+    float: left;
+}
+
+.messages ul li span.left:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -8.5px;
+    top: 7px;
+    height: 0px;
+    width: 0px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid white;
+}
+
+.messages ul li span.left:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -9px;
+    top: 7px;
+    height: 0px;
+    width: 0px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid black;
+}
+
+.messages ul li span.right:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -8px;
+    top: 6px;
+    height: 0px;
+    width: 0px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #dbedfe;
+}
+
+.messages ul li span.right:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -9px;
+    top: 6px;
+    height: 0px;
+    width: 0px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid black;
+}
+
+.messages ul li span.right {
+    float: right;
+    background-color: #dbedfe;
+}
+
+.clear {
+    clear: both;
+}
+
+.input-box {
+    background-color: white;
+    height: 50px;
+    padding: 0px;
+}
+
+.input-box textarea {
+    padding: 0px;
+    width: 220px;
+    height: 100%;
+    display: inline-block;
+    outline: 0px;
+    border-width: 0px;
+    resize: none;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    font-size: 12px;
+    padding: 10px;
+    border-top-width: 0px;
+}
+
+a {
+    position: relative;
+    padding: 3px 5px;
+}
+
+.notifs {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    padding: 1px 4px;
+    border: 0px solid white;
+    border-radius: 100px;
+    background: -webkit-linear-gradient(top, #FF6969 0%, #ff0000 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .4), 0 0 1px rgba(0, 0, 0, .7) inset, 0 10px 0px rgba(255, 255, 255, .11) inset;
+    -webkit-background-clip: padding-box;
+    font: bold 10px/10px "Helvetica Neue", sans-serif;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .6);
+}
